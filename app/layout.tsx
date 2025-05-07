@@ -1,5 +1,11 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: '诺Chat',
+  description: 'A chat application for the modern age'
+};
 
 export default function RootLayout({
   children,
